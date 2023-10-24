@@ -26,6 +26,11 @@ main {
     /* justify-content: center; */
 }
 
+.is_center{
+    margin-top: 20px;
+    text-align: center;
+}
+
 /* 見出しの文字サイズ */
 
 h1 {
@@ -35,7 +40,7 @@ h1 {
 /* 問題表示の文字サイズ */
 
 h2 {
-    /* text-align: center; */
+    text-align: center;
     font-size: 1.8rem;
     margin: 20px 0;
 }
@@ -55,4 +60,18 @@ input {
 
 button {
     font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    h2{
+        font-size: 24px;
+    }
+    input {
+        transform: scale(1.6);
+        width: 50px;
+    }
+    label{
+        font-size: 20px;
+    }
 }
