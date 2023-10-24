@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>靴の評価</title>
+</head>
+
+<body>
+    <h1>靴の評価</h1>
+    <form action="">
+
+        <!-- 評価　穴 -->
+
+        <h2>穴</h2>
+        <div class="flex">
+            <div>
+                <input type="radio" id="01-01" name="hole" value="10">
+                <label for="01-01">レベル1</label>
+            </div>
+
+            <div>
+                <input type="radio" id="01-02" name="hole" value="20" />
+                <label for="01-02">レベル2</label>
+            </div>
+
+            <div>
+                <input type="radio" id="01-03" name="hole" value="30" />
+                <label for="01-03">レベル3</label>
+            </div>
+        </div>
+
+        <!-- 評価　しみ -->
+        <h2>しみ</h2>
+
+        <div class="flex">
+            <div>
+                <input type="radio" id="02-01" name="stain" value="5">
+                <label for="02-01">レベル1</label>
+            </div>
+
+            <div>
+                <input type="radio" id="02-02" name="stain" value="10" />
+                <label for="02-02">レベル2</label>
+            </div>
+
+            <div>
+                <input type="radio" id="02-03" name="stain" value="20" />
+                <label for="02-03">レベル3</label>
+            </div>
+        </div>
+
+        <!-- 評価　かかとのすりきれ -->
+        <h2>かかとのすりきれ</h2>
+
+        <div class="flex">
+            <div>
+                <input type="radio" id="03-01" name="worn_heels" value="5">
+                <label for="03-01">レベル1</label>
+            </div>
+
+            <div>
+                <input type="radio" id="03-02" name="worn_heels" value="10" />
+                <label for="03-02">レベル2</label>
+            </div>
+
+            <div>
+                <input type="radio" id="03-03" name="worn_heels" value="20" />
+                <label for="03-03">レベル3</label>
+            </div>
+        </div>
+
+        <!-- 評価　ほつれ -->
+        <h2>ほつれ</h2>
+
+        <div class="flex">
+            <div>
+                <input type="radio" id="04-01" name="frayed" value="5">
+                <label for="04-01">レベル1</label>
+            </div>
+
+            <div>
+                <input type="radio" id="04-02" name="frayed" value="10" />
+                <label for="04-02">レベル2</label>
+            </div>
+
+            <div>
+                <input type="radio" id="04-03" name="frayed" value="20" />
+                <label for="04-03">レベル3</label>
+            </div>
+        </div>
+
+        <!-- 評価　しわ -->
+        <h2>しわ</h2>
+
+        <div class="flex">
+            <div>
+                <input type="radio" id="05-01" name="wrinkles" value="5">
+                <label for="05-01">レベル1</label>
+            </div>
+
+            <div>
+                <input type="radio" id="05-02" name="wrinkles" value="10" />
+                <label for="05-02">レベル2</label>
+            </div>
+
+            <div>
+                <input type="radio" id="05-03" name="wrinkles" value="20" />
+                <label for="05-03">レベル3</label>
+            </div>
+        </div>
+        <input type="button" value="集計" id="checkButton">
+        <!-- <button onclick="window.location.reload();">集計</button> -->
+    </form>
+    <script src="js/totalling.js"></script>
+</body>
+
+</html>
