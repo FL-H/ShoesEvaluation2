@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    font-size: 16px;
+    /* text-align: center; */
+}
+
+main {
+    color: #fff;
+    text-align: center;
+    margin-inline: auto;
+    /* background-color: rgb(52, 20, 85); */
+    background-color: #000;
+}
+
+.flex {
+    display: flex;
+    /* justify-content: center; */
+}
+
+/* 見出しの文字サイズ */
+
+h1 {
+    font-size: 2rem;
+}
+
+/* 問題表示の文字サイズ */
+
+h2 {
+    /* text-align: center; */
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+label {
+    font-size: 2rem;
+}
+
+/* ラジオボタン　〇のサイズ */
+
+input {
+    transform: scale(1.6);
+    width: 100px;
+}
+
+/* ボタンの文字サイズ */
+
+button {
+    font-size: 2rem;
+}
