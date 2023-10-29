@@ -24,6 +24,13 @@ function getCss(req, res) {
             res.write(data);
             res.end();
         });
+    } else if ('/js/totallingV2.js' == url) {
+        fs.readFile('./js/totallingV2.js', 'UTF-8', function (err, data) {
+            console.log('totallingV2.js is read.')
+            res.writeHead(200, { 'Content-Type': 'text/javascript' });
+            res.write(data);
+            res.end();
+        });
     } else {
         console.log('unexpected url...');
             res.writeHead(404, { 'Content-Type': 'text/plain' });
