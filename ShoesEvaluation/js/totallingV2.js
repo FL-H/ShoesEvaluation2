@@ -194,10 +194,10 @@ function butotnClick() {
                         arr[1] = "レベル1";
                         switch (arr[0]) {
                             case "stain":
-                                shoesstatus = shoesstatus + "外側目立たない場所にシミあり\n";
+                                shoesstatus = shoesstatus + "内側シミあり\n";
                                 break;
                             case "worn_heels":
-                                shoesstatus = shoesstatus + "すりきれ半分以下あり\n";
+                                shoesstatus = shoesstatus + "すりきれ弱あり\n";
                                 break;
                             case "frayed":
                                 shoesstatus = shoesstatus + "けば立っている\n";
@@ -206,7 +206,7 @@ function butotnClick() {
                                 shoesstatus = shoesstatus + "うっすら線あり\n";
                                 break;
                             case "scratch":
-                                shoesstatus = shoesstatus + "外側目立たないキズあり\n";
+                                shoesstatus = shoesstatus + "内側キズあり\n";
                                 break;
                             default:
                         }
@@ -219,10 +219,10 @@ function butotnClick() {
                                 arr[1] = "レベル1";
                                 break;
                             case "stain":
-                                shoesstatus = shoesstatus + "内側シミあり\n";
+                                shoesstatus = shoesstatus + "外側目立たない場所にシミあり\n";
                                 break;
                             case "worn_heels":
-                                shoesstatus = shoesstatus + "すりきれ弱あり\n";
+                                shoesstatus = shoesstatus + "すりきれ半分以下あり\n";
                                 break;
                             case "frayed":
                                 shoesstatus = shoesstatus + "ほつれ少\n";
@@ -231,7 +231,7 @@ function butotnClick() {
                                 shoesstatus = shoesstatus + "しわあり\n";
                                 break;
                             case "scratch":
-                                shoesstatus = shoesstatus + "内側キズあり\n";
+                                shoesstatus = shoesstatus + "外側目立たないキズあり\n";
                                 break;
                             default:
                         }
