@@ -200,10 +200,10 @@ function butotnClick() {
                                 shoesstatus = shoesstatus + "すりきれ半分以下あり\n";
                                 break;
                             case "frayed":
-                                shoesstatus = shoesstatus + "しわあり\n";
+                                shoesstatus = shoesstatus + "けば立っている\n";
                                 break;
                             case "wrinkles":
-                                shoesstatus = shoesstatus + "ほつれ少\n";
+                                shoesstatus = shoesstatus + "うっすら線あり\n";
                                 break;
                             case "scratch":
                                 shoesstatus = shoesstatus + "外側目立たないキズあり\n";
@@ -225,10 +225,10 @@ function butotnClick() {
                                 shoesstatus = shoesstatus + "すりきれ弱あり\n";
                                 break;
                             case "frayed":
-                                shoesstatus = shoesstatus + "深いしわ\n";
-                                break;
+                                shoesstatus = shoesstatus + "ほつれ少\n";
+                            break;
                             case "wrinkles":
-                                shoesstatus = shoesstatus + "ほつれ多\n";
+                                shoesstatus = shoesstatus + "しわあり\n";
                                 break;
                             case "scratch":
                                 shoesstatus = shoesstatus + "内側キズあり\n";
@@ -250,10 +250,10 @@ function butotnClick() {
                                 shoesstatus = shoesstatus + "すりきれ強あり\n";
                                 break;
                             case "frayed":
-                                shoesstatus = shoesstatus + "うっすら線あり\n";
-                                break;
+                                shoesstatus = shoesstatus + "ほつれ多\n";
+                            break;
                             case "wrinkles":
-                                shoesstatus = shoesstatus + "けば立っている\n";
+                                shoesstatus = shoesstatus + "深いしわ\n";
                                 break;
                             case "scratch":
                                 shoesstatus = shoesstatus + "外側目立つキズあり\n";
